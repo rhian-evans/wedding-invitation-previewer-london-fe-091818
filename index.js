@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
 function init() {
 const wedding = ['firstname', 'secondname', 'surname', 'date' , 'location'];
-wedding.forEach (w => document.getElementById(w) .addEventListener => event.target.value)
+wedding.forEach (w => document.getElementById(w).addEventListener() => event.target.value)
 }
 
 
