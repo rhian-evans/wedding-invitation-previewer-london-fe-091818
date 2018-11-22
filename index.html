@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title> Wedding Invitation Designer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h1>Wedding Invitation Designer</h1>
+
+  <div id="container" style="width:100%;">
+
+  <div id="left" style="float:left; width:50%;">
+
+  <form id='titles'>
+    <span class="sunset" onclick="titleFunction1();">Sunset </span>
+    <span class="floral" onclick="titleFunction2();">Floral </span>
+    <span class="ocean" onclick="titleFunction3();">Ocean </span>
+   </form>
+
+
+    <form id=table>
+
+        <p><label for="firstname">First name</label>
+          <input type="text" id="firstname" placeholder="Enter Name"></p>
+        <p> <label for="secondname">Second Name</label>
+          <input type="text" id="secondname" placeholder="Enter Name"></p>
+        <p><label for="surname">Surname</label>
+          <input type="text" id="surname" placeholder="Enter surname"></p>
+        <p><label for="date">Date</label>
+          <input type="date" id="date" placeholder="Enter date"></p>
+        <p><label for="location">Location</label>
+          <input type="text" id="location" placeholder="Enter location"></p>
+
+    </form>
+  </div>
+</div>
+  <div id="right" style="float:right; width:50%;">
+
+    <div id="invite" class="sunset1">
+        <p>You are cordinally invited to the wedding of </p>
+      <p><span id="name1"></span><br/>
+        <span id="name2"></span><br/>
+        <span id="lastName"></span><br/>
+        <span id="when"></span><br/>
+        <span id="where"></span><br/>
+      </p>
+      
+      <p id="name1"></p>
+        <p id="name2"></p>
+        <p id="lastName"></p>
+        <p id="when"></p>
+        <p id="where"></p>
+      
+    </div>​
+  </div>
+
+</body>

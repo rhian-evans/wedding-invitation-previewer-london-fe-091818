@@ -1,0 +1,75 @@
+h1 {
+  font-size: 50px;
+  color: white;
+  padding-left: 30%;
+}
+
+h3 {
+  font-size: 25px;
+  color: white;
+  padding-left: 15%;
+  display: inline-block;
+}
+
+body {
+  background-color: #ffdab9;
+}
+
+#titles {
+  word-spacing: 5em;
+  color: white;
+}
+
+form {
+  padding-left: 15%;
+  font-size: 25px;
+  color: #808080;
+  width: 100%;
+}
+
+label {
+  float: left;
+  width: 10em;
+  margin-right: 1em;
+}
+
+input {
+  width: 75%;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+  font-weight:bold
+}
+
+.sunset1 {
+  background-image: url(https://images.unsplash.com/photo-1512641406448-6574e777bec6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88f1a5c192024ea29e2cbd35bd765920&auto=format&fit=crop&w=1534&q=80);
+  /*height: 90vh;
+  width: 40vw;*/
+}
+
+.floral1 {
+  background-image: url(https://images.unsplash.com/photo-1465566829994-b8da8cae5909?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=065ac81435085c1800a955393cc96209&auto=format&fit=crop&w=1050&q=80);
+  /*height: 90vh;
+  width: 40vw;*/
+}
+
+.ocean1 {
+  background-image: url(https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53b711edbf0f887b5de376f91052d8f8&auto=format&fit=crop&w=1050&q=80);
+  /*height: 90vh;
+  width: 40vw;*/
+}
+
+#invite {
+  padding: 16% 10% 15% 10%;
+  text-align: center;
+  border: 1px solid black;
+  color: #608080;
+  line-height: 40px;
+}
+
+span {
+  text-align: center;
+  cursor:pointer;
+}
