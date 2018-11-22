@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded",function(){
 
-/*function init() {
-const wedding ('firstname', 'secondname', 'surname', 'date' , 'location');
-wedding.forEach ('wedding') => document.getElementById('wedding') .addEventListener => event.target.value
-}*/
+function init() {
+const wedding = ['firstname', 'secondname', 'surname', 'date' , 'location'];
+wedding.forEach (w => document.getElementById(w) .addEventListener => event.target.value)
+}
 
 
-  document.getElementById("firstname")
+ /* document.getElementById("firstname")
   .addEventListener("input", function(event){
     document.getElementById("name1")
            .innerHTML = event.target.value;
@@ -67,4 +67,5 @@ function titleFunction2() {
 function titleFunction3() {
   document.getElementById("invite").className = "ocean1";
 }
+}*/
   
